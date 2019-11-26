@@ -5,16 +5,15 @@ document.addEventListener('keypress', (event) => {
             let audio = document.getElementById(i);
             
             if(audio) {
+                audio.currentTime = 0;
                 audio.play(); 
                 let play = audio.parentElement;
                 play.setAttribute("id", "play")
                 
                 setTimeout(function(){
                     play.removeAttribute("id");
-                }, 500);
-            }
-
-            
+                }, 100);
+            }            
         }
     }
 });

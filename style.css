@@ -23,12 +23,10 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    color: #f6c667;
+    color: #ffc600;
 }
 #play {
-    margin: 7px;
-    border: black solid 3px;
-    width: 70px;
-    height: 80px;
     transform: scale(1.1);
+    border: #ffc600 solid 3px;
+    box-shadow: 0 0 10px #ffc600;
 }
